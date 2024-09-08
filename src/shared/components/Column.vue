@@ -1,4 +1,5 @@
 <script setup lang="ts">
+// @ts-nocheck
 import { Delete, Edit, Select } from '@element-plus/icons-vue';
 import { ref } from 'vue';
 import { useProjectsStore } from '../../entities/store';

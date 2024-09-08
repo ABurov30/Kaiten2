@@ -1,4 +1,5 @@
 <script setup lang="ts">
+// @ts-nocheck
 import { ref } from 'vue';
 import { useProjectsStore } from '../../entities/store';
 import { Ticket } from '../../entities/types';

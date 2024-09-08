@@ -14,7 +14,7 @@
 
     /* Linting */
     "strict": true,
-    "types": ["vuex/types", "element-plus/global"],
+    "types": ["element-plus/global"],
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true

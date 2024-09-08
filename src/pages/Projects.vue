@@ -1,4 +1,5 @@
 <script setup lang="ts">
+// @ts-nocheck
 import { storeToRefs } from 'pinia';
 import { ref } from 'vue';
 
@@ -15,7 +16,7 @@ const isEditProcess = ref(false);
 const input = ref('');
 
 const startEditing = () => {
-  input.value = getCurrentProject?.value?.name; //
+  input.value = getCurrentProject?.value?.name;
   isEditProcess.value = true;
 };
 

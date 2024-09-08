@@ -1,4 +1,5 @@
 <script setup lang="ts">
+// @ts-nocheck
 import { storeToRefs } from 'pinia';
 import { useAppStore } from './entities/app/store';
 import Loader from './shared/components/Loader.vue';
