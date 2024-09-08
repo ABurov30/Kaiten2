@@ -1,0 +1,32 @@
+{
+  "name": "kaiten",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.3.1",
+    "axios": "^1.7.7",
+    "element-plus": "^2.8.1",
+    "path": "^0.12.7",
+    "pinia": "^2.2.2",
+    "uuid": "^10.0.0",
+    "vue": "^3.4.37",
+    "vue-router": "^4.4.3",
+    "vuex": "^4.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.4",
+    "@types/uuid": "^10.0.0",
+    "@vitejs/plugin-vue": "^5.1.2",
+    "typescript": "^5.5.3",
+    "unplugin-auto-import": "^0.18.2",
+    "unplugin-vue-components": "^0.27.4",
+    "vite": "^5.4.1",
+    "vue-tsc": "^2.0.29"
+  }
+}
