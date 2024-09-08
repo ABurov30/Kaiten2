@@ -6,7 +6,7 @@ export const getWeather = async () => {
       async ({ coords }) => {
         try {
           const res = await axios(
-            `http://api.weatherapi.com/v1/current.json?key=${import.meta.env.VITE_WEATHER_API_KEY}&q=${
+            `https://api.weatherapi.com/v1/current.json?key=${import.meta.env.VITE_WEATHER_API_KEY}&q=${
               coords.latitude
             },${coords.longitude}&aqi=no`
           );
