@@ -36,7 +36,7 @@ const isHovered = ref(false);
   display: flex;
   align-items: center;
   gap: 10px;
-  width: 100%;
+  width: 90%;
   min-width: max-content;
   padding: 10px;
   border-radius: 4px;
