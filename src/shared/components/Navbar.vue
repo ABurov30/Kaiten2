@@ -16,7 +16,7 @@ const isDarkTheme = ref(getTheme.value === Theme.dark);
 <template>
   <div class="navbarContainer">
     <div class="navbar">
-      <div class="logo"><button @click="router.push('/')">Kaiten</button></div>
+      <div class="logo"><button @click="router.push('/')">Kaidzu</button></div>
       <div class="buttonsContainer">
         <button @click="router.push('/')">Projects</button>
         <button @click="router.push('/goals')">Goals</button>
