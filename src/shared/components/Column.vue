@@ -95,6 +95,7 @@ const onDragStart = (e: DragEvent, column: Column) => {
   display: flex;
   flex-direction: column;
   width: max-content;
+  min-width: 20%;
   gap: 20px;
 }
 
